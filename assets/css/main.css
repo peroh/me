@@ -1454,7 +1454,6 @@ textarea {
   .select-wrapper:before {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
     text-transform: none !important; }
@@ -1507,7 +1506,6 @@ input[type="radio"] {
     input[type="radio"] + label:before {
       -moz-osx-font-smoothing: grayscale;
       -webkit-font-smoothing: antialiased;
-      font-family: FontAwesome;
       font-style: normal;
       font-weight: normal;
       text-transform: none !important; }
@@ -1610,7 +1608,6 @@ input[type="radio"]:focus + label:before {
   .icon:before {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
     text-transform: none !important; }
@@ -1737,6 +1734,21 @@ ul {
   ul.features {
     list-style: none;
     padding: 0; }
+    ul.features .icon-everproof::before {
+      content: url("/images/everproof-circle-2x.png");
+      transform: scale(0.5); }
+    ul.features .icon-unimelb::before {
+      content: url("/images/unimelb-circle-2x.png");
+      transform: scale(0.5); }
+    ul.features .icon-mapartners::before {
+      content: url("/images/mapartners-circle-2x.png");
+      transform: scale(0.5); }
+    ul.features .icon-cissa::before {
+      content: url("/images/cissa-circle-2x.png");
+      transform: scale(0.5); }
+    ul.features .icon-portsea::before {
+      content: url("/images/portsea-circle-2x.png");
+      transform: scale(0.5); }
     ul.features li {
       display: -moz-flex;
       display: -webkit-flex;
@@ -1745,6 +1757,9 @@ ul {
       border-top: solid 2px;
       margin: 3em 0 0 0;
       padding: 3em 0 0 0; }
+      ul.features li img {
+        width: 41px;
+        height: 41px; }
       ul.features li h3 {
         margin-bottom: 0;
         min-width: 20em;
@@ -1754,15 +1769,14 @@ ul {
         -ms-flex: auto; }
         ul.features li h3:before {
           border-radius: 100%;
-          border: solid 2px;
           font-size: 1.25em;
-          height: 2.5em;
+          height: 0;
           left: 0;
           line-height: 2.25em;
           position: absolute;
           text-align: center;
-          top: 0;
-          width: 2.5em; }
+          top: -0.4em;
+          width: 0.5em; }
       ul.features li p {
         width: 65%;
         -ms-flex: auto;
@@ -2738,7 +2752,6 @@ body {
             #header nav ul li a.submenu:before {
               -moz-osx-font-smoothing: grayscale;
               -webkit-font-smoothing: antialiased;
-              font-family: FontAwesome;
               font-style: normal;
               font-weight: normal;
               text-transform: none !important; }
@@ -2760,7 +2773,6 @@ body {
     #header .navPanelToggle:before {
       -moz-osx-font-smoothing: grayscale;
       -webkit-font-smoothing: antialiased;
-      font-family: FontAwesome;
       font-style: normal;
       font-weight: normal;
       text-transform: none !important; }
@@ -2862,7 +2874,7 @@ body {
   background-repeat: repeat, no-repeat, no-repeat;
   position: relative;
   min-height: 70vh;
-  height: 35em; }
+  height: 30em; }
   #banner .content {
     position: absolute;
     bottom: 0;
@@ -3221,7 +3233,6 @@ body {
     #navPanel .close:before {
       -moz-osx-font-smoothing: grayscale;
       -webkit-font-smoothing: antialiased;
-      font-family: FontAwesome;
       font-style: normal;
       font-weight: normal;
       text-transform: none !important; }
