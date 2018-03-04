@@ -1357,6 +1357,9 @@ button,
     pointer-events: none;
     opacity: 0.25; }
 
+#btnContainer .button {
+  margin-top: 0.3em; }
+
 input[type="submit"],
 input[type="reset"],
 input[type="button"],

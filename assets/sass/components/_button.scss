@@ -76,6 +76,12 @@
 		}
 	}
 
+	#btnContainer {
+		.button {
+			margin-top: 0.3em;
+		}
+	}
+
 	@mixin color-button($p: null) {
 		$highlight: _palette($p, highlight);
 
