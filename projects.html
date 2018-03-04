@@ -1,0 +1,18 @@
+---
+layout: page
+title: Projects
+subtitle: "The projects I have worked on, or am currently working on."
+---
+
+<ul class="actions fit" id="btnContainer">
+  <li><a href="#" class="button special fit" id="all" onclick="filterSelection('all')">All</a></li>
+  <li><a href="#" class="button fit" id="personal" onclick="filterSelection('personal')">Personal</a></li>
+  <li><a href="#" class="button fit" id="uni" onclick="filterSelection('uni')">Uni</a></li>
+  <li><a href="#" class="button fit" id="work" onclick="filterSelection('work')">Work</a></li>
+</ul>
+
+{% include projects.html visibility="hidden" %}
+
+<script>
+filterSelection("all")
+</script>

@@ -1,0 +1,28 @@
+<!-- Projects -->
+<section id="three" class="wrapper">
+  <div class="inner">
+    {% if include.header %}
+    <header class="major">
+      <h2>Projects</h2>
+      <p>A few things I've worked on</p>
+    </header>
+    {% endif %}
+    <div class="posts">
+      {% for project in site.projects limit:include.limit %}
+      <section class="post {{ project.type }} {{ include.visibility }}">
+        <a href="#" class="image"><img src="{{ project.image }}" alt="" /></a>
+        <div class="content">
+          <h3>{{ project.name }}</h3>
+          <p>{{ project.description.short }}</p>
+          <a href="{{ project.url }}" class="button">View</a>
+        </div>
+      </section>
+      {% endfor %}
+    </div>
+  </div>
+  {% if include.limit %}
+  <div class="center">
+    <a href="/projects.html" class="button big">See all</a>
+  </div>
+  {% endif %}
+</section>

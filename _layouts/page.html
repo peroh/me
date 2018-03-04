@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+
+<!-- Main -->
+  {% if page.sidebar %}
+  <section id="main" class="wrapper sidebar {{ page.sidebar_position }}">
+  {% else %}
+  <section id="main" class="wrapper">
+  {% endif %}
+		<div class="inner">
+			<header class="major">
+				<h2>{{ page.title }}</h2>
+				<p>{{ page.subtitle }}</p>
+			</header>
+			<!-- Content -->
+				<div class="content">
+					<a href="#" class="image fit"><img src="{{ page.image }}" alt="" /></a>
+					{{ content }}
+				</div>
+		</div>
+	</section>

@@ -1454,6 +1454,7 @@ textarea {
   .select-wrapper:before {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
+    font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
     text-transform: none !important; }
@@ -1506,6 +1507,7 @@ input[type="radio"] {
     input[type="radio"] + label:before {
       -moz-osx-font-smoothing: grayscale;
       -webkit-font-smoothing: antialiased;
+      font-family: FontAwesome;
       font-style: normal;
       font-weight: normal;
       text-transform: none !important; }
@@ -1608,6 +1610,7 @@ input[type="radio"]:focus + label:before {
   .icon:before {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
+    font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
     text-transform: none !important; }
@@ -1721,6 +1724,10 @@ ul {
       padding: 0;
       table-layout: fixed;
       width: calc(100% + 1em); }
+      @media screen and (max-width: 736px) {
+        ul.actions.fit {
+          display: inline-grid;
+          width: calc(100% + 1em); } }
       ul.actions.fit li {
         display: table-cell;
         padding: 0 0 0 1em; }
@@ -1843,6 +1850,10 @@ ul.features li {
     display: -webkit-flex;
     display: -ms-flex;
     display: flex; }
+    .posts .post.hidden {
+      display: none; }
+    .posts .post.show {
+      display: flex; }
     .posts .post .image {
       display: block;
       margin-right: 2em;
@@ -1983,6 +1994,10 @@ table.alt tbody tr td {
 .wrapper {
   padding: 6.5em 0 4.5em 0 ;
   position: relative; }
+  .wrapper .center {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
   .wrapper > .inner {
     margin: 0 auto;
     width: 70em; }
@@ -2653,10 +2668,10 @@ table.alt tbody tr td {
         width: 100%; } }
   @media screen and (max-width: 736px) {
     .wrapper {
-      padding: 2.5em 2em 0.5em 2em ; } }
+      padding: 4.5em 2em 2.5em 2em ; } }
   @media screen and (max-width: 480px) {
     .wrapper {
-      padding: 2.5em 1.5em 0.5em 1.5em ; } }
+      padding: 4.5em 1.5em 2.5em 1.5em ; } }
 
 /* Header */
 body {
@@ -2752,6 +2767,7 @@ body {
             #header nav ul li a.submenu:before {
               -moz-osx-font-smoothing: grayscale;
               -webkit-font-smoothing: antialiased;
+              font-family: FontAwesome;
               font-style: normal;
               font-weight: normal;
               text-transform: none !important; }
@@ -2773,6 +2789,7 @@ body {
     #header .navPanelToggle:before {
       -moz-osx-font-smoothing: grayscale;
       -webkit-font-smoothing: antialiased;
+      font-family: FontAwesome;
       font-style: normal;
       font-weight: normal;
       text-transform: none !important; }
@@ -3233,6 +3250,7 @@ body {
     #navPanel .close:before {
       -moz-osx-font-smoothing: grayscale;
       -webkit-font-smoothing: antialiased;
+      font-family: FontAwesome;
       font-style: normal;
       font-weight: normal;
       text-transform: none !important; }

@@ -1,0 +1,21 @@
+---
+layout: page
+title: Blog
+---
+
+<section id="three" class="wrapper">
+  <div class="inner">
+    <div class="posts">
+      {% for post in site.posts %}
+      <section class="post">
+        <a href="#" class="image"><img src="{{ post.image }}" alt="" /></a>
+        <div class="content">
+          <h3>{{ post.name }}</h3>
+          <p>{{ post.short }}</p>
+          <a href="{{ post.url }}" class="button">Read</a>
+        </div>
+      </section>
+      {% endfor %}
+    </div>
+  </div>
+</section>

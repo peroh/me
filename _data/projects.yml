@@ -1,0 +1,64 @@
+- name: "Train Simulation"
+  description:
+    short: "Software Modelling and Design assignment in Java"
+  image: ""
+
+- name: "Memba Tech"
+  description:
+    short: "Software tools for small organisations"
+  image: "images/memba.png"
+
+- name: "Jufl"
+  description:
+    short: "A last minute catch up app"
+  image: "images/jufl2.png"
+
+- name: "MARS App"
+  description:
+    short: "Learning to live on Mars through VR"
+  image: "images/marshub.png"
+
+- name: "Coffee Cat"
+  description:
+    short: "Automated coffee catch up scheduling built at a work hackathon"
+  image: ""
+
+- name: "OnTask"
+  description:
+    short: "Gamified task marketplace built for consulting client"
+  image: ""
+
+- name: "Your Rugby Match"
+  description:
+    short: ""
+  image: "images/yrm.png"
+
+- name: "Growth Model"
+  description:
+    short: ""
+  image: ""
+
+- name: "Mutation Analysis Research"
+  description:
+    short: "Built mutation testing tool for large Python programs"
+  image: ""
+
+- name: "Car Controller Model"
+  description:
+    short: "Software Modelling and Design assignment"
+  image: ""
+
+- name: "Car Controller Model"
+  description:
+    short: "Software Modelling and Design assignment"
+  image: ""
+
+- name: "Playgrounds Prototype"
+  description:
+    short: ""
+  image: ""
+
+- name: "Haskell Presentation"
+  description:
+    short: ""
+  image: ""

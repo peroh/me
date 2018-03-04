@@ -1,0 +1,44 @@
+- role: "Software Developer"
+  organisation: "Everproof"
+  link: "http://everproof.com"
+  description:
+    short: "Currently working on the backend of the platform and building
+            <a href=\"https://google.com\" target=\"_blank\">verification</a> tools."
+    long: ""
+  image_class: "icon-everproof"
+
+- role: "Demonstrator"
+  organisation: "University of Melbourne"
+  link: "http://www.unimelb.edu.au/"
+  description:
+    short: "Demonstrator for [Introduction to Python Programming](https://handbook.unimelb.edu.au/2017/subjects/comp90059)."
+    long: ""
+  image_class: "icon-unimelb"
+
+- role: "Finance Analyst"
+  organisation: "M&A Partners"
+  link: "http://mapartners.com.au/"
+  description:
+    short: "Worked in a boutique Mergers and Acquisitions firm advising clients on $5-50m deals."
+    long: ""
+  image_class: "icon-mapartners"
+
+- role: "Treasurer/Presentor"
+  organisation: "Computing and Information Systems Students Association"
+  link: "https://cissa.org.au/"
+  description:
+    short: "Managed the finances for the Computing and Information Systems Students Association.
+            MC/Presentor for events such as [CodeBrew](https://codebrew.com.au/) (hackathon),
+            <a href=\"https://www.facebook.com/cissa.unimelb/photos/a.1914302928846428.1073741836.1678235912453132/1914302975513090/?type=3&theater\" target=\"_blank\">Industry Networking Night]</a>,
+            and [AI Industry Panel]()."
+    long: ""
+  image_class: "icon-cissa"
+
+- role: "Club Captain"
+  organisation: "Portsea"
+  link: "http://www.portseasurf.com.au/"
+  description:
+    short: "Running the operations of the second biggest lifesaving club in Victoria, with 2000+ members.
+            We save [x] lives each year in the dangerous waters of Portsea back beach."
+    long: ""
+  image_class: "icon-portsea"
