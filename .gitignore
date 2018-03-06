@@ -36,5 +36,6 @@ Temporary Items
 ### Sass ###
 *.css.map
 
+template
 
 # End of https://www.gitignore.io/api/sass,macos,jekyll

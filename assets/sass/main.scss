@@ -35,12 +35,19 @@
 		@include color-table($p);
 	}
 
-	@mixin banner-bg($image, $overlay: false) {
+	@mixin banner-bg($image, $gradient: true, $overlay: false) {
 		$background-image: (
 			'url("images/overlay.png")',
-			'linear-gradient(45deg, #{transparentize(_palette(gradient1), 0.35)}, #{transparentize(_palette(gradient2), 0.35)})',
 			'url("#{$image}")'
 		);
+
+		@if $gradient {
+			$background-image: (
+				'url("images/overlay.png")',
+				'linear-gradient(45deg, #{transparentize(_palette(gradient3), 0.35)}, #{transparentize(_palette(gradient4), 0.35)})',
+				'url("#{$image}")'
+			);
+		}
 
 		$background-size: (
 			auto,

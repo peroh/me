@@ -11,7 +11,13 @@
 /* Banner */
 
 	#banner {
-		@include banner-bg('../../images/banner.jpg');
+
+		@include banner-bg('../../images/surfski large.jpg', false);
+
+		@include breakpoint(small) {
+			@include banner-bg('../../images/surfski small.jpg', false);
+		}
+
 		position: relative;
 		min-height: 70vh;
 		height: 30em;

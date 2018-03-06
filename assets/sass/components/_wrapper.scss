@@ -42,7 +42,7 @@
 		}
 
 		&.cta {
-			@include banner-bg('../../images/cta.jpg', true);
+			@include banner-bg('../../images/cta.jpg', false, true);
 			@include color-typography(accent4);
 			@include color-button(accent4);
 
@@ -73,6 +73,10 @@
 					}
 				}
 			}
+		}
+
+		&.cta-image {
+			@include banner-bg('../../images/portsea-2.jpg', false, true);
 		}
 
 		&.sidebar {

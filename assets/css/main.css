@@ -2535,10 +2535,10 @@ table.alt tbody tr td {
     .wrapper.style4 table.alt tbody tr td {
       border-color: #ffffff; }
   .wrapper.cta {
-    background-image: -moz-linear-gradient(top, rgba(21, 27, 33, 0.6), rgba(21, 27, 33, 0.6)), url("images/overlay.png"), -moz-linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("../../images/cta.jpg");
-    background-image: -webkit-linear-gradient(top, rgba(21, 27, 33, 0.6), rgba(21, 27, 33, 0.6)), url("images/overlay.png"), -webkit-linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("../../images/cta.jpg");
-    background-image: -ms-linear-gradient(top, rgba(21, 27, 33, 0.6), rgba(21, 27, 33, 0.6)), url("images/overlay.png"), -ms-linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("../../images/cta.jpg");
-    background-image: linear-gradient(top, rgba(21, 27, 33, 0.6), rgba(21, 27, 33, 0.6)), url("images/overlay.png"), linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("../../images/cta.jpg");
+    background-image: -moz-linear-gradient(top, rgba(21, 27, 33, 0.6), rgba(21, 27, 33, 0.6)), url("images/overlay.png"), url("../../images/cta.jpg");
+    background-image: -webkit-linear-gradient(top, rgba(21, 27, 33, 0.6), rgba(21, 27, 33, 0.6)), url("images/overlay.png"), url("../../images/cta.jpg");
+    background-image: -ms-linear-gradient(top, rgba(21, 27, 33, 0.6), rgba(21, 27, 33, 0.6)), url("images/overlay.png"), url("../../images/cta.jpg");
+    background-image: linear-gradient(top, rgba(21, 27, 33, 0.6), rgba(21, 27, 33, 0.6)), url("images/overlay.png"), url("../../images/cta.jpg");
     background-position: center center;
     background-size: auto, auto, cover, cover;
     background-attachment: fixed, fixed, fixed, fixed;
@@ -2620,6 +2620,15 @@ table.alt tbody tr td {
       .wrapper.cta > .inner > * {
         width: 100% !important;
         padding-left: 0 !important; } }
+  .wrapper.cta-image {
+    background-image: -moz-linear-gradient(top, rgba(21, 27, 33, 0.6), rgba(21, 27, 33, 0.6)), url("images/overlay.png"), url("../../images/portsea-2.jpg");
+    background-image: -webkit-linear-gradient(top, rgba(21, 27, 33, 0.6), rgba(21, 27, 33, 0.6)), url("images/overlay.png"), url("../../images/portsea-2.jpg");
+    background-image: -ms-linear-gradient(top, rgba(21, 27, 33, 0.6), rgba(21, 27, 33, 0.6)), url("images/overlay.png"), url("../../images/portsea-2.jpg");
+    background-image: linear-gradient(top, rgba(21, 27, 33, 0.6), rgba(21, 27, 33, 0.6)), url("images/overlay.png"), url("../../images/portsea-2.jpg");
+    background-position: center center;
+    background-size: auto, auto, cover, cover;
+    background-attachment: fixed, fixed, fixed, fixed;
+    background-repeat: repeat, repeat, no-repeat, no-repeat; }
   .wrapper.sidebar > .inner {
     display: -moz-flex;
     display: -webkit-flex;
@@ -2894,10 +2903,7 @@ body {
       display: block; } }
 /* Banner */
 #banner {
-  background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("../../images/banner.jpg");
-  background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("../../images/banner.jpg");
-  background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("../../images/banner.jpg");
-  background-image: url("images/overlay.png"), linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("../../images/banner.jpg");
+  background-image: url("images/overlay.png"), url("../../images/surfski large.jpg");
   background-position: center center;
   background-size: auto, cover, cover;
   background-attachment: fixed, fixed, fixed;
@@ -2905,6 +2911,13 @@ body {
   position: relative;
   min-height: 70vh;
   height: 30em; }
+  @media screen and (max-width: 736px) {
+    #banner {
+      background-image: url("images/overlay.png"), url("../../images/surfski small.jpg");
+      background-position: center center;
+      background-size: auto, cover, cover;
+      background-attachment: fixed, fixed, fixed;
+      background-repeat: repeat, no-repeat, no-repeat; } }
   #banner .content {
     position: absolute;
     bottom: 0;
@@ -3032,10 +3045,10 @@ body {
 
 /* Footer */
 #footer {
-  background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("../../images/banner.jpg");
-  background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("../../images/banner.jpg");
-  background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("../../images/banner.jpg");
-  background-image: url("images/overlay.png"), linear-gradient(45deg, rgba(39, 161, 227, 0.65), rgba(231, 35, 42, 0.65)), url("../../images/banner.jpg");
+  background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, rgba(82, 119, 84, 0.65), rgba(57, 68, 77, 0.65)), url("../../images/banner.jpg");
+  background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, rgba(82, 119, 84, 0.65), rgba(57, 68, 77, 0.65)), url("../../images/banner.jpg");
+  background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, rgba(82, 119, 84, 0.65), rgba(57, 68, 77, 0.65)), url("../../images/banner.jpg");
+  background-image: url("images/overlay.png"), linear-gradient(45deg, rgba(82, 119, 84, 0.65), rgba(57, 68, 77, 0.65)), url("../../images/banner.jpg");
   background-position: center center;
   background-size: auto, cover, cover;
   background-attachment: fixed, fixed, fixed;
