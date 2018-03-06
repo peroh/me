@@ -216,6 +216,25 @@
 			list-style: none;
 			padding: 0;
 
+			.box {
+				margin-top: 2em;
+			}
+
+			.experienceDesc {
+
+				li {
+					display: list-item;
+					list-style: disc;
+					border: none;
+					margin: 0;
+					padding: 0;
+				}
+
+				p {
+					margin-top: 2em;
+				}
+			}
+
 			.icon-everproof::before {
   			content: url("/images/everproof-circle-2x.png");
 				transform: scale(0.5);

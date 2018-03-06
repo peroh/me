@@ -13,28 +13,7 @@
     </div>
   </section>
 
-  <!-- Experiences Section -->
-  <section id="one" class="wrapper">
-    <div class="inner">
-      <header class="major">
-        <h2>Experience</h2>
-        <p>As an employee and a volunteer</p>
-      </header>
-      <ul class="features">
-        {% for experience in site.data.experiences %}
-        <li>
-          <h3 class="icon style1 {{ experience.image_class }}">
-            {{ experience.role }} <br/>
-            <span style="font-weight:normal;">
-              <a href="{{ experience.link }}" target="_blank">{{ experience.organisation }}</a>
-            </span>
-          </h3>
-          {{ experience.description.short | markdownify }}
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
-  </section>
+  {% include experiences.html limit=5 %}
 
 <!-- Undecided banner -->
   <section id="two" class="wrapper cta">

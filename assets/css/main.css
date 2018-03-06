@@ -1744,6 +1744,16 @@ ul {
   ul.features {
     list-style: none;
     padding: 0; }
+    ul.features .box {
+      margin-top: 2em; }
+    ul.features .experienceDesc li {
+      display: list-item;
+      list-style: disc;
+      border: none;
+      margin: 0;
+      padding: 0; }
+    ul.features .experienceDesc p {
+      margin-top: 2em; }
     ul.features .icon-everproof::before {
       content: url("/images/everproof-circle-2x.png");
       transform: scale(0.5); }

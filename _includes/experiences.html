@@ -1,0 +1,36 @@
+<!-- Experiences Section -->
+<section id="one" class="wrapper">
+  <div class="inner">
+    {% if include.header %}
+    <header class="major">
+      <h2>Experience</h2>
+      <p>As an employee and a volunteer</p>
+    </header>
+    {% endif %}
+    <ul class="features">
+      {% for experience in site.data.experiences %}
+      <li>
+        <h3 class="icon style1 {{ experience.image_class }}">
+          {{ experience.role }} <br/>
+          <span style="font-weight:normal;">
+            <a href="{{ experience.link }}" target="_blank">{{ experience.organisation }}</a>
+          </span>
+        </h3>
+        {{ experience.description.short | markdownify }}
+      </li>
+      {% if include.long %}
+      <div class="experienceDesc">
+      {{ experience.description.long | markdownify }}
+      </div>
+      <div class="box alt">
+        <div class="row uniform 50%">
+          {% for image in experience.images %}
+          <div class="4u"><span class="image fit"><img src="{{ image }}" alt="" /></span></div>
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</section>

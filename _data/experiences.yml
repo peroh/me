@@ -1,11 +1,29 @@
 - role: "Software Developer"
   organisation: "Everproof"
   link: "http://everproof.com"
+  image_class: "icon-everproof"
   description:
     short: "Currently working on the backend of the platform and building
             <a href=\"https://google.com\" target=\"_blank\">verification</a> tools."
-    long: ""
-  image_class: "icon-everproof"
+    long:
+      "I am predominantly a backend developer at Everproof, but really I just help
+      out wherever I can. I started off as an intern in 2017, and am now working part-time
+      while I complete my Masters.\n
+
+      *Technologies*
+
+      * Python (with Django) \n
+      * Django REST Framework \n
+      * SQL (Postgres) \n
+      * HTML, CSS, JS, Jekyll \n
+      * Git \n
+
+      *Projects*
+
+      * Admin application \n
+      * Verification applications \n
+      * Growth Model \n
+      * Static site \n"
 
 - role: "Demonstrator"
   organisation: "University of Melbourne"
@@ -18,10 +36,25 @@
 - role: "Finance Analyst"
   organisation: "M&A Partners"
   link: "http://mapartners.com.au/"
+  image_class: "icon-mapartners"
   description:
     short: "Worked in a boutique Mergers and Acquisitions firm advising clients on $5-50m deals."
-    long: ""
-  image_class: "icon-mapartners"
+    long:
+      "*Deals*\n
+
+      * Ferguson Fisheries - developed off balance sheet funding structures for the sale and leaseback of Australian seafood quota\n
+      * NY Bagels - advised on sale to Pacific Equity Partners as a bolt on acquisition to an existing bakery operation\n
+      * Bluebird (Pepsico Inc) - worked on divestment of their 'Flemings' muesli bar business\n
+      * Kadac - advised on the sale of the business New Development Corporation\n
+
+      *Role*\n
+
+      * Strategic analysis for buy/sell-side deals and mergers\n
+      * Financial analysis on private and public companies\n
+      * Build financial models\n
+      * Create investor documents such as Information Memorandums and market updates\n
+      * Work daily with C-level executives\n
+      "
 
 - role: "Treasurer/Presentor"
   organisation: "Computing and Information Systems Students Association"
@@ -33,12 +66,24 @@
             and [AI Industry Panel]()."
     long: ""
   image_class: "icon-cissa"
+  images:
+    - "/images/cissa-cb17-1.jpg"
+    - "/images/cissa-inn16-1.jpg"
+    - "/images/cissa-inn17-1.jpg"
+    - "/images/cissa-cb16-2.jpg"
 
 - role: "Club Captain"
   organisation: "Portsea"
   link: "http://www.portseasurf.com.au/"
+  image_class: "icon-portsea"
   description:
     short: "Running the operations of the second biggest lifesaving club in Victoria, with 2000+ members.
             We save [x] lives each year in the dangerous waters of Portsea back beach."
-    long: ""
-  image_class: "icon-portsea"
+    long:
+      "
+      "
+  images:
+    - "/images/portsea-4.jpg"
+    - "/images/portsea-1.jpg"
+    - "/images/portsea-2.jpg"
+    - "/images/portsea-5.png"
