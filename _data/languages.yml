@@ -2,7 +2,7 @@
   level: "Very good."
 
 - title: "Java"
-  level: "Intermediate."
+  level: "Very good."
 
 - title: "Haskell"
   level: "Intermediate."
@@ -10,5 +10,5 @@
 - title: "SQL"
   level: "Intermediate."
 
-- title: "HTML/CSS/JS"
-  level: "Meh."
+- title: "HTML/CSS"
+  level: "Intermediate."
