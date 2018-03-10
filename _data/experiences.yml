@@ -10,30 +10,41 @@
       wherever I can. I started off as an intern in 2017, and am now working
       part-time while I complete my Masters.\n
 
-      *Technologies*
+      <div class=\"row\">
+        <div class=\"6u\">
+          <em>Technologies</em><br><br>
+          <ul>
+            <li>Python (with Django)</li>
+            <li>Django REST Framework</li>
+            <li>SQL (Postgres)</li>
+            <li>HTML, CSS, JS, Jekyll</li>
+            <li>Git</li>
+          </ul>
+        </div>
+        <div class=\"6u\">
+          <em>Projects</em><br><br>
+          <ul>
+            <li>Admin application</li>
+            <li>Verification applications</li>
+            <li>Growth Model</li>
+            <li>Static site</li>
+          </ul>
+        </div>
+      </div>"
 
-      * Python (with Django) \n
-      * Django REST Framework \n
-      * SQL (Postgres) \n
-      * HTML, CSS, JS, Jekyll \n
-      * Git \n
-
-      *Projects*
-
-      * Admin application \n
-      * Verification applications \n
-      * Growth Model \n
-      * Static site \n"
 
 - role: "Demonstrator"
   organisation: "University of Melbourne"
   link: "http://www.unimelb.edu.au/"
   description:
-    short: "Demonstrator for [Introduction to Python Programming](https://handbook.unimelb.edu.au/2017/subjects/comp90059)."
+    short: "Demonstrator for [Introduction to Python Programming](
+            https://handbook.unimelb.edu.au/2017/subjects/comp90059)."
     long:
-      "I ran workshops for Grad Students who are new to programming.\n
-      Students were taught the fundamentals of programming by learning Python.
-      "
+      "Demonstrator for [Introduction to Python
+      Programming](https://handbook.unimelb.edu.au/2017/subjects/comp90059).\n
+
+      I ran workshops for Grad Students who are new to programming.\n Students
+      were taught the fundamentals of programming by learning Python. "
   image_class: "icon-unimelb"
 
 - role: "Finance Analyst"
@@ -41,21 +52,30 @@
   link: "http://mapartners.com.au/"
   image_class: "icon-mapartners"
   description:
-    short: "Worked in a boutique Mergers and Acquisitions firm advising clients on $5-50m deals."
+    short: "Worked in a boutique Mergers and Acquisitions firm advising clients
+            on $5-50m deals."
     long:
-      "*Deals*\n
+      "Worked in a boutique Mergers and Acquisitions firm advising clients on
+      $5-50m deals.\n
 
-      * Ferguson Fisheries - developed off balance sheet funding structures for the sale and leaseback of Australian seafood quota\n
-      * NY Bagels - advised on sale to Pacific Equity Partners as a bolt on acquisition to an existing bakery operation\n
-      * Bluebird (Pepsico Inc) - worked on divestment of their 'Flemings' muesli bar business\n
-      * Kadac - advised on the sale of the business New Development Corporation\n
+      *Deals*\n
+
+      * Ferguson Fisheries - developed off balance sheet funding structures for
+        the sale and leaseback of Australian seafood quota\n
+      * NY Bagels - advised on sale to Pacific Equity Partners as a bolt on
+        acquisition to an existing bakery operation\n
+      * Bluebird (Pepsico Inc) - worked on divestment of their 'Flemings' muesli
+        bar business\n
+      * Kadac - advised on the sale of the business New Development
+        Corporation\n
 
       *Role*\n
 
       * Strategic analysis for buy/sell-side deals and mergers\n
       * Financial analysis on private and public companies\n
       * Build financial models\n
-      * Create investor documents such as Information Memorandums and market updates\n
+      * Create investor documents such as Information Memorandums and market
+        updates\n
       * Work daily with C-level executives\n
       "
 
@@ -63,17 +83,38 @@
   organisation: "Computing and Information Systems Students Association"
   link: "https://cissa.org.au/"
   description:
-    short: "Managed the finances for the Computing and Information Systems Students Association.
-            MC/Presentor for events such as [CodeBrew](https://codebrew.com.au/) (hackathon),
-            <a href=\"https://www.facebook.com/cissa.unimelb/photos/a.1914302928846428.1073741836.1678235912453132/1914302975513090/?type=3&theater\" target=\"_blank\">Industry Networking Night]</a>,
-            and the Computer Science Industry Panel."
-    long: ""
+    short:
+      "Managed the finances for the Computing and Information Systems Students
+      Association. MC/Presentor for events such as
+      <a href=\"https://codebrew.com.au/\" target=\"_blank\">CodeBrew</a>
+      (hackathon),
+      <a href=\"https://www.facebook.com/pg/cissa.unimelb/photos/?tab=album&album_id=1914302928846428\"
+      target=\"_blank\">Industry Networking Night</a>
+      , and the Computer Science Industry Panel."
+    long:
+      "Managed the finances for the Computing and Information Systems Students
+      Association. MC/Presentor for events such as:
+
+      * <a href=\"https://codebrew.com.au/\" target=\"_blank\">CodeBrew</a>
+        (hackathon),\n
+      * <a href=\"https://www.facebook.com/pg/cissa.unimelb/photos/?tab=album&album_id=1914302928846428\"
+      target=\"_blank\">Industry Networking Night</a>\n
+      * <a href=\"https://www.facebook.com/pg/cissa.unimelb/photos/?tab=album&album_id=1893868154223239\"
+      target=\"_blank\">Computer Science Industry Panel</a>\n
+
+
+      It was a privilige to be Treasurer for a society with so many enthusiastic
+      and intelligent people. We would run an event nearly every week, and
+      hopefully helped hundreds of computer science students get jobs and make
+      friends."
   image_class: "icon-cissa"
   images:
-    - "/images/cissa-cb17-1.jpg"
-    - "/images/cissa-inn16-1.jpg"
-    - "/images/cissa-inn17-1.jpg"
+    - "/images/codebrew-group-2017.jpg"
     - "/images/cissa-cb16-2.jpg"
+    - "/images/cissa-inn16-1a.jpg"
+    - "/images/cissa-inn17-1.jpg"
+    - "/images/cissa-cb16-1.jpg"
+    - "/images/cissa-cb17-1a.jpg"
 
 - role: "Club Captain"
   organisation: "Portsea"
@@ -86,7 +127,7 @@
       "
       "
   images:
-    - "/images/portsea-4.jpg"
+    - "/images/portsea-6.jpg"
     - "/images/portsea-1.jpg"
     - "/images/portsea-2.jpg"
-    - "/images/portsea-5.png"
+    - "/images/silver-2016.jpg"

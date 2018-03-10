@@ -16,7 +16,9 @@
             <a href="{{ experience.link }}" target="_blank">{{ experience.organisation }}</a>
           </span>
         </h3>
+        {% if include.long == false %}
         {{ experience.description.short | markdownify }}
+        {% endif %}
       </li>
       {% if include.long %}
       <div class="experienceDesc">

@@ -1,7 +1,10 @@
 - name: "Train Simulation"
+  image: ""
   description:
     short: "Software Modelling and Design assignment in Java"
-  image: ""
+    long:
+      "
+      "
 
 - name: "Memba Tech"
   description:
@@ -43,10 +46,10 @@
     short: "Built mutation testing tool for large Python programs"
   image: ""
 
-- name: "Car Controller Model"
+- name: "AskIzzi"
+  image: ""
   description:
     short: "Software Modelling and Design assignment"
-  image: ""
 
 - name: "Car Controller Model"
   description:

@@ -2007,10 +2007,17 @@ table.alt tbody tr td {
 .wrapper {
   padding: 6.5em 0 4.5em 0 ;
   position: relative; }
+  .wrapper #one {
+    padding-top: 0; }
   .wrapper .center {
     display: flex;
     align-items: center;
     justify-content: center; }
+    .wrapper .center .header {
+      max-height: 40vh;
+      height: 100%; }
+    .wrapper .center.header {
+      margin-bottom: 4em; }
   .wrapper > .inner {
     margin: 0 auto;
     width: 70em; }
@@ -2694,6 +2701,22 @@ table.alt tbody tr td {
   @media screen and (max-width: 480px) {
     .wrapper {
       padding: 4.5em 1.5em 2.5em 1.5em ; } }
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden; }
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
 
 /* Header */
 body {

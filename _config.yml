@@ -3,3 +3,5 @@ name: Matt Perrott
 collections:
   projects:
     output: true
+
+aws: "https://s3-ap-southeast-2.amazonaws.com/"

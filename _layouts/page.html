@@ -16,8 +16,16 @@ layout: default
 			</header>
 			<!-- Content -->
 				<div class="content">
-					<a href="#" class="image fit"><img src="{{ page.image }}" alt="" /></a>
+            <div class="center header">
+  					  <img class="header" src="{{ page.image }}" alt="" />
+            </div>
 					{{ content }}
 				</div>
+        {% if page.sidebar_template %}
+        <div class="sidebar">
+          <!-- TODO: Submit bug report to Jekyll about below -->
+          {% include {{page.sidebar_template}} %}
+        </div>
+        {% endif %}
 		</div>
 	</section>
