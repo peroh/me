@@ -1,7 +1,7 @@
 ---
 layout: page
 title: jufl
-type: work
+type: personal
 short: "Finding lunch buddies last minute."
 image: "/images/jufl.png"
 ---
