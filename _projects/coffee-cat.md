@@ -23,4 +23,4 @@ The final product was a React frontend, as DjangoREST backend, a Python
 scheduling algorithm, a webhook to the Twist API, and a React photo collage
 application.
 
-I built the api backend.
+I built the API backend.

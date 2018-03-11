@@ -38,7 +38,7 @@ team from Slovakia.
 Looking back at it, I did pretty much everything wrong. I invested too much time
 and money into the initial product before getting it in the hands of customers.
 I only thought about the way I would use something, and not someone else. Rather
-than letting the data speak for itself, I got to emotionally invested in what
+than letting the data speak for itself, I got too emotionally invested in what
 it should look like. There were plenty of signs that it wasn't going to get much
 traction in hindsight, but hindsight is always easy...
 
