@@ -5,3 +5,7 @@ collections:
     output: true
 
 aws: "https://s3-ap-southeast-2.amazonaws.com/"
+
+notes_copyright:
+  "*Note: These notes are a mixture of lecture material, textbook material and
+  private research. All credit to the University of Melbourne.*"

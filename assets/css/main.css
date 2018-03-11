@@ -1185,6 +1185,8 @@ blockquote {
   font-style: italic;
   margin: 0 0 2em 0;
   padding: 0.5em 0 0.5em 2em; }
+  blockquote p {
+    margin-bottom: 0; }
 
 code {
   border-radius: 5px;
@@ -1647,6 +1649,15 @@ input[type="radio"]:focus + label:before {
     width: 100%; }
     .image.fit img {
       width: 100%; }
+  .image.fit-small {
+    max-width: 100%; }
+    @media screen and (max-width: 736px) {
+      .image.fit-small {
+        display: block;
+        margin: 0 0 2em 0;
+        width: 100%; }
+        .image.fit-small img {
+          width: 100%; } }
   .image.main {
     display: block;
     margin: 0 0 3em 0;
@@ -2719,7 +2730,7 @@ table.alt tbody tr td {
   top: 0;
   left: 0;
   width: 142.2222222222vh;
-  height: 80vh; }
+  height: 70vh; }
   @media screen and (max-width: 736px) {
     .video-container iframe,
     .video-container object,

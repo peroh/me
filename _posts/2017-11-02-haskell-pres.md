@@ -1,13 +1,21 @@
 ---
 layout: page
 title: "Haskell Presentation"
-short: "blah blah  blah"
-sidebar: true
+short: "A short intro to Haskell I did at work"
+sidebar: false
 sidebar_position: right
-image: "/images/banner.jpg"
+image: "/images/haskell-logo.png"
 ---
 
-# Haskell Presentation
+
+<br>[Slides](https://docs.google.com/presentation/d/1wElfbdtkHDmwDTDIEIIgngMoZ71v-w2Hplc0IpDyvn0/edit?usp=sharing)
+
+<div class="video-container">
+  <iframe width="560" height="315"
+  src="https://www.youtube.com/embed/4_NHVgs09Q4" frameborder="0"
+  allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
 
 ## Programming Paradigms
 
@@ -398,19 +406,6 @@ Haskell supports lambda calculus to write unnamed functions.
 10
 ```
 
-## List Comprehension
-
-## Precedence
-
-Brackets > Function application (juxtaposition) >
-
-```bash
->
-```
-
-> map even [1,2,3]
-
-
 ## Example
 
 **Create a list between min and max**
@@ -439,7 +434,7 @@ listCreate minn maxx
 
 We have to declare the Eq typleclass. Haskell doesn't wanna risk it!
 
-```
+```haskell
 myElem :: Eq a => a -> [a] -> Bool
 myElem _ [] = False
 myElem x (y:ys)
@@ -449,14 +444,14 @@ myElem x (y:ys)
 
 Will both of these work?
 
-```
+```haskell
 ghci> myElem "ab" "dabc"
 ghci> myElem 'ab' "dabc"
 ```
 
 Let's write a subset method.
 
-```
+```haskell
 subset :: Eq a => [a] -> [a] -> Bool
 subset [] _ = True
 subset _ [] = False

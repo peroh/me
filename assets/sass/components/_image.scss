@@ -52,6 +52,19 @@
 			}
 		}
 
+		&.fit-small {
+			max-width: 100%;
+			@include breakpoint(small) {
+				display: block;
+				margin: 0 0 _size(element-margin) 0;
+				width: 100%;
+
+				img {
+					width: 100%;
+				}
+			}
+		}
+
 		&.main {
 			display: block;
 			margin: 0 0 (_size(element-margin) * 1.5) 0;
