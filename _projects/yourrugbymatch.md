@@ -4,6 +4,7 @@ title: Your Rugby Match
 type: work
 short: "Voting Application for big client."
 image: "/images/yrm.png"
+order: 20
 ---
 
 I did some freelance work to build a voting web app for an international rugby

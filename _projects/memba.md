@@ -4,9 +4,10 @@ title: memba
 type: personal
 short: "Member management and paperwork automation."
 image: "/images/memba.png"
+order: 70
 ---
 
-<ul class="icons">
+<ul class="icons top-pad">
   <li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
 </ul>
 

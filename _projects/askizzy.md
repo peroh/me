@@ -4,6 +4,7 @@ title: AskIzzy
 type: uni
 short: "Yearlong Masters Project"
 image: "/images/askizzy.png"
+order: 10
 ---
 
 *10/03/2018*

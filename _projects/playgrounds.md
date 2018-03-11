@@ -4,6 +4,7 @@ title: "Playground Ideas"
 type: uni
 short: "Mobile app requirements and prototype for non-profit"
 image: "/images/playgrounds-logo1.png"
+order: 100
 ---
 
 [Playground Ideas](https://playgroundideas.org/) is a non-profit organisation

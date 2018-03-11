@@ -3,8 +3,14 @@ layout: page
 title: jufl
 type: personal
 short: "Finding lunch buddies last minute."
-image: "/images/jufl.png"
+image: "/images/jufl2.png"
+order: 80
 ---
+
+<ul class="icons top-pad">
+  <li><a href="https://github.com/peroh/jufl-ios" target="\_blank"
+  class="icon fa-github"><span class="label">Github</span></a></li>
+</ul>
 
 Jufl was a social networking concept that came from when a friend and I found
 that we kept missing each other at uni, and would often eat by ourselves

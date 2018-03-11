@@ -4,6 +4,7 @@ title: "onTask"
 type: uni
 short: "iOS/Android freelancing application for Capgemini client"
 image: "/images/ontask-logo.png"
+order: 50
 ---
 
 For our semester-long software engineering project, we had a client from
