@@ -2,7 +2,7 @@
 layout: page
 title: "Car Controller"
 type: uni
-short: "Java implementation of an automated car controller."
+short: "Java implementation of an automated car controller"
 image: "/images/smd-ass3-car.png"
 order: 30
 ---

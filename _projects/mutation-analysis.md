@@ -2,8 +2,8 @@
 layout: page
 title: "Mutation Analysis Research Project"
 type: uni
-short: "Built a mutator and testing tool for python projects."
-image: "/images/cpu.png"
+short: "Built a mutator and testing tool for python projects"
+image: "/images/research-results.png"
 order: 40
 ---
 

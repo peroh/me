@@ -2,7 +2,7 @@
 layout: page
 title: memba
 type: personal
-short: "Member management and paperwork automation."
+short: "Member management and paperwork automation"
 image: "/images/memba.png"
 order: 70
 ---

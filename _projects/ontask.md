@@ -26,8 +26,12 @@ complimentary skill sets.
 
 
 <div class="row center">
-  <div class="4u"><span class="image fit"><img src="/images/ontask-screenshot1.png"/></span></div>
-  <div class="4u"><span class="image fit"><img src="/images/ontask-screenshot2.png"/></span></div>
+  <div class="4u"><span class="image fit">
+    <img src="/images/ontask-screenshot1.png"/></span>
+  </div>
+  <div class="4u"><span class="image fit">
+    <img src="/images/ontask-screenshot2.png"/></span>
+  </div>
 </div>
 
 

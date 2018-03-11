@@ -2,13 +2,14 @@
 layout: page
 title: "Metro Madness - Train Simulation"
 type: uni
-short: "Java implementation of a graphical train network simulation."
+short: "Java implementation of a graphical train network simulation"
 image: "/images/smd-ass2-class.png"
 order: 60
 ---
 
 <ul class="icons top-pad">
-  <li><a href="https://github.com/peroh/swen30006-a2" target="\_blank" class="icon fa-github"><span class="label">Github</span></a></li>
+  <li><a href="https://github.com/peroh/swen30006-a2" target="\_blank"
+  class="icon fa-github"><span class="label">Github</span></a></li>
 </ul>
 
 The second assignment for Software Modelling and Design was building a train

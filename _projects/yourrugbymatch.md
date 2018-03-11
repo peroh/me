@@ -2,7 +2,7 @@
 layout: page
 title: Your Rugby Match
 type: work
-short: "Voting Application for big client."
+short: "Voting Application for big client"
 image: "/images/yrm.png"
 order: 20
 ---

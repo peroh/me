@@ -1,14 +1,52 @@
 - title: "Python - Django"
-  level: "Very good."
+  level: "Very good"
+  description:
+    "Have worked on multiple small django projects, and larger ones in a
+    professional environment."
 
 - title: "Java"
-  level: "Very good."
+  level: "Very good"
+  description:
+    "Java is the language I have used most throughout my degree. I've done lots
+    of assignments in Java, and am currently learning more about concurrency."
 
 - title: "Haskell"
-  level: "Intermediate."
+  level: "Intermediate"
+  description:
+    "I learnt Haskell quite well in Declarative Programming. I got a very good
+    score and have delivered an intro class. I would like to keep it up."
 
 - title: "SQL"
-  level: "Intermediate."
+  level: "Intermediate"
+  description:
+    "Have used SQL in bursts over the last few years. A bit of looking at the
+    docs is usually all I need to get some tasty queries going."
 
-- title: "HTML/CSS"
-  level: "Intermediate."
+- title: "HTML/CSS/Sass"
+  level: "Intermediate"
+  description:
+    "I've used HTML and CSS on various projects, but have never gotten into
+    the complexities of CSS. It can still be very much trial and error."
+
+- title: "Javascript"
+  level: "Basic"
+  description:
+    "I've never formally learnt javascript. I've played around with it here and
+    there to get the job done. This is high on the too-learn-properly list."
+
+- title: "Ada"
+  level: "Basic"
+  description:
+    "Currently learning a bit of Ada for the subject High Integrity Systems."
+
+- title: "Php"
+  level: "Basic"
+  description:
+    "Used it a tiny bit for a databases project, and a bit of wordpress. Not a
+    fan..."
+
+- title: "Ruby/Elixir/Scala<br>/Rust/Go - React"
+  level: "Want to learn"
+  description:
+    "These are some languages that I've had no experience in, but am keen to
+    learn when time permits! I will probably have to choose just a couple..."

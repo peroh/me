@@ -22,7 +22,8 @@ prototype for our client.
 <iframe width="360" style="min-height:624px;"
 src="https://bit.ly/playgroundswallaby" frameborder="0"></iframe>
 
-<a href="https://bit.ly/playgroundswallaby" target="\_blank" class="button small special">Use prototype in new tab</a>
+<a href="https://bit.ly/playgroundswallaby" target="\_blank"
+class="button small special">Use prototype in new tab</a>
 
 Each client in the subject works with a few teams. The client chose our
 prototype to be developed.
@@ -50,8 +51,12 @@ built for. The amount of time it took to do some of the interactions with
 complex logic it would have been just as easy to just code it up...
 
 <div class="row center">
-  <div class="4u"><span class="image fit"><img src="/images/playgrounds2.png"/></span></div>
-  <div class="4u"><span class="image fit"><img src="/images/playgrounds3.png"/></span></div>
+  <div class="4u"><span class="image fit">
+    <img src="/images/playgrounds2.png"/></span>
+  </div>
+  <div class="4u"><span class="image fit">
+    <img src="/images/playgrounds3.png"/></span>
+  </div>
 </div>
 
 

@@ -2,7 +2,7 @@
 layout: page
 title: jufl
 type: personal
-short: "Finding lunch buddies last minute."
+short: "Finding lunch buddies last minute"
 image: "/images/jufl2.png"
 order: 80
 ---

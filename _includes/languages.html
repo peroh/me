@@ -1,0 +1,38 @@
+{% if include.limit %}
+<section id="two" class="wrapper cta">
+  <div class="inner">
+    <div class="table-wrapper">
+{% endif %}
+      <table>
+        <thead>
+          <tr>
+            <th>Language [ - Framework]</th>
+            <th>Level</th>
+            {% if include.limit == nil %}
+            <th>Description</th>
+            {% endif %}
+          </tr>
+        </thead>
+        <tbody>
+          {% for language in site.data.languages limit:include.limit %}
+          <tr>
+            <td>{{ language.title }}</td>
+            <td>{{ language.level }}</td>
+            {% if include.limit == nil %}
+            <td>{{ language.description }}</td>
+            {% endif %}
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+{% if include.limit %}
+    <header>
+      <h2>Technical Skills</h2>
+      <ul class="actions">
+        <li><a href="#" class="button big">See all</a></li>
+      </ul>
+    </header>
+  </div>
+</section>
+{% endif %}

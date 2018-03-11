@@ -2,7 +2,7 @@
 layout: page
 title: AskIzzy
 type: uni
-short: "Yearlong Masters Project"
+short: "Yearlong Masters Project (Current)"
 image: "/images/askizzy.png"
 order: 10
 ---
