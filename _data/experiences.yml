@@ -6,7 +6,7 @@
     short: "Currently working on the backend of the platform and building
             verification tools."
     long:
-      "I am predominantly a backend developer at Everproof, and I will help out
+      "I am predominantly a backend developer at Everproof, but I will help out
       wherever I can. I started off as an intern in 2017, and am now working
       part-time while I complete my Masters.\n
 
@@ -121,11 +121,19 @@
   link: "http://www.portseasurf.com.au/"
   image_class: "icon-portsea"
   description:
-    short: "Running the operations of the second biggest lifesaving club in Victoria, with 2000+ members.
-            We save [x] lives each year in the dangerous waters of Portsea back beach."
+    short:
+      "Running the operations of the second biggest lifesaving club in Victoria,
+      with 2000+ members. We have saved hundreds of lives in the dangerous
+      waters of Portsea back beach."
     long:
-      "
-      "
+      "Running the operations of the second biggest lifesaving club in Victoria,
+      with 2000+ members. We have saved hundreds of lives in the dangerous
+      waters of Portsea back beach.
+
+      I work with a fantastic team committed volunteers to manage the operations
+      of our club. We run a 600 kid Nipper program, one of the largest Education
+      programs in Australia, and patrol one of the most dangerous beaches in
+      Australia."
   images:
     - "/images/portsea-6.jpg"
     - "/images/portsea-1.jpg"

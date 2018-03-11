@@ -3,7 +3,7 @@ layout: page
 title: "Playground Ideas"
 type: uni
 short: "Mobile app requirements and prototype for non-profit"
-image: "/images/playgrounds-logo.png"
+image: "/images/playgrounds-logo1.png"
 ---
 
 [Playground Ideas](https://playgroundideas.org/) is a non-profit organisation
@@ -18,10 +18,8 @@ prototype for our client.
 
 ### Interactive Prototype
 
-<div class="video-container">
-  <iframe width="560" height="315" src="https://bit.ly/playgroundswallaby"
-  frameborder="0"></iframe>
-</div>
+<iframe width="360" style="min-height:624px;"
+src="https://bit.ly/playgroundswallaby" frameborder="0"></iframe>
 
 <a href="https://bit.ly/playgroundswallaby" target="\_blank" class="button small special">Use prototype in new tab</a>
 
@@ -42,8 +40,8 @@ prototype to be developed.
 
 Using Axure for the prototype allowed us to do some pretty funky things.
 
-<div class="row">
-  <img class="fit" src="/images/playgrounds1.png"/>
+<div class="image fit row">
+  <img src="/images/playgrounds1.png"/>
 </div>
 
 But we started to built a bit too much logic in, which Axure just isn't quite
