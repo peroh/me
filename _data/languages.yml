@@ -31,21 +31,20 @@
 - title: "Javascript"
   level: "Basic"
   description:
-    "I've never formally learnt javascript. I've played around with it here and
-    there to get the job done. This is high on the to-learn-properly list."
+    "In the past I've played around with Javascript, but have never formally
+    learnt it. I'm now learning it and React for the AskIzzy project."
 
 - title: "Ada"
   level: "Basic"
   description:
-    "Currently learning a bit of Ada for the subject High Integrity Systems."
+    "Currently learning a Ada for the subject High Integrity Systems."
 
-- title: "Php"
+- title: "C"
   level: "Basic"
   description:
-    "Used it a tiny bit for a databases project, and a bit of wordpress. Not a
-    fan..."
+    "I've dabbled in C, but haven't used it for a long time."
 
-- title: "Ruby/Elixir/Scala<br>/Rust/Go - React"
+- title: "Ruby/Scale/Elixir<br>/Rust/Go/Elm"
   level: "Want to learn"
   description:
     "These are some languages that I've had no experience in, but am keen to

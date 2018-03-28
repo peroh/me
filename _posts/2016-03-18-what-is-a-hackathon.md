@@ -19,7 +19,7 @@ or topic to work with, and will be required to present or pitch their project at
 the end of the hackathon. The idea is to build, or “hack”,  everything from
 scratch over a short period of time.
 
-![](/images/hackathon1.jpeg)
+![](/images/hackathon1.jpeg){:class="image fit-small"}
 
 The beauty of a hackathon is you can go in knowing absolutely nobody, and within
 2 hours you’re working with a likeminded, yet diverse, team to solve a problem
@@ -36,7 +36,7 @@ required to work on an innovative solution that somehow relates to a problem
 with food. Teams are between 4 and 6 people, and pitches are 5 minutes. Other
 than that, there’s no more rules!
 
-![](/images/hackathon2.jpeg)
+![](/images/hackathon2.jpeg){:class="image fit-small"}
 
 On top of all the participants, there are heaps of judges, mentor and staff
 hanging around all weekend to help out and learn something themselves. The
@@ -51,4 +51,4 @@ out and also competing!
 Everyone is really excited to see what comes of this weekend. To keep updated
 check out CISSA on Twitter and Facebook or search #codebrew16
 
-![](/images/hackathon3.jpg)
+![](/images/hackathon3.jpg){:class="image fit-small"}
