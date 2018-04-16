@@ -2,7 +2,8 @@
   level: "Very good"
   description:
     "Have worked on multiple small django projects, and larger ones in a
-    professional environment."
+    professional environment. I have tutored an intro to python subject at
+    university."
 
 - title: "Java"
   level: "Very good"
@@ -37,7 +38,7 @@
 - title: "Ada"
   level: "Basic"
   description:
-    "Currently learning a Ada for the subject High Integrity Systems."
+    "Currently learning Ada for the subject High Integrity Systems."
 
 - title: "C"
   level: "Basic"
