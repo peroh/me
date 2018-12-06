@@ -3,44 +3,42 @@
   link: "http://everproof.com"
   image_class: "icon-everproof"
   description:
-    short: "Currently working on the backend of the platform and building
-            verification tools."
+    short: "Worked on the backend of the platform and building
+      verification tools."
     long:
-      "I am predominantly a backend developer at Everproof, but I will help out
-      wherever I can. I started off as an intern in 2017, and am now working
-      part-time while I complete my Masters.\n
+      "I was predominantly a backend developer at Everproof, but I helped out
+      wherever I could. I started off as an intern in 2017, and then worked
+      part-time while I completed my Masters.\n
 
       <div class=\"row\">
-        <div class=\"6u\">
-          <em>Technologies</em><br><br>
-          <ul>
-            <li>Python (with Django)</li>
-            <li>Django REST Framework</li>
-            <li>SQL (Postgres)</li>
-            <li>HTML, CSS, JS, Jekyll</li>
-            <li>Git</li>
-          </ul>
-        </div>
-        <div class=\"6u\">
-          <em>Projects</em><br><br>
-          <ul>
-            <li>Admin application</li>
-            <li>Verification applications</li>
-            <li>Growth Model</li>
-            <li>Static site</li>
-          </ul>
-        </div>
+      <div class=\"6u\">
+      <em>Technologies</em><br><br>
+      <ul>
+      <li>Python (with Django)</li>
+      <li>Django REST Framework</li>
+      <li>SQL (Postgres)</li>
+      <li>HTML, CSS, JS, Jekyll</li>
+      <li>Git</li>
+      </ul>
+      </div>
+      <div class=\"6u\">
+      <em>Projects</em><br><br>
+      <ul>
+      <li>Admin application</li>
+      <li>Verification applications</li>
+      <li>Growth Model</li>
+      <li>Static site</li>
+      </ul>
+      </div>
       </div>"
-
 
 - role: "Demonstrator"
   organisation: "University of Melbourne"
   link: "http://www.unimelb.edu.au/"
   description:
     short: "Demonstrator for [Introduction to Python Programming](
-            https://handbook.unimelb.edu.au/2017/subjects/comp90059)."
-    long:
-      "Demonstrator for [Introduction to Python
+      https://handbook.unimelb.edu.au/2017/subjects/comp90059)."
+    long: "Demonstrator for [Introduction to Python
       Programming](https://handbook.unimelb.edu.au/2017/subjects/comp90059).\n
 
       I ran workshops for Grad Students who are new to programming.\n Students
@@ -53,7 +51,7 @@
   image_class: "icon-mapartners"
   description:
     short: "Worked in a boutique Mergers and Acquisitions firm advising clients
-            on $5-50m deals."
+      on $5-50m deals."
     long:
       "Worked in a boutique Mergers and Acquisitions firm advising clients on
       $5-50m deals.\n
@@ -61,13 +59,13 @@
       *Deals*\n
 
       * Ferguson Fisheries - developed off balance sheet funding structures for
-        the sale and leaseback of Australian seafood quota\n
+      the sale and leaseback of Australian seafood quota\n
       * NY Bagels - advised on sale to Pacific Equity Partners as a bolt on
-        acquisition to an existing bakery operation\n
+      acquisition to an existing bakery operation\n
       * Bluebird (Pepsico Inc) - worked on divestment of their 'Flemings' muesli
-        bar business\n
+      bar business\n
       * Kadac - advised on the sale of the business New Development
-        Corporation\n
+      Corporation\n
 
       *Role*\n
 
@@ -75,7 +73,7 @@
       * Financial analysis on private and public companies\n
       * Build financial models\n
       * Create investor documents such as Information Memorandums and market
-        updates\n
+      updates\n
       * Work daily with C-level executives\n
       "
 
@@ -84,19 +82,19 @@
   link: "https://cissa.org.au/"
   description:
     short:
-      "Managed the finances for the Computing and Information Systems Students
+      'Managed the finances for the Computing and Information Systems Students
       Association. MC/Presentor for events such as
-      <a href=\"https://codebrew.com.au/\" target=\"_blank\">CodeBrew</a>
+      <a href="https://codebrew.com.au/" target="_blank">CodeBrew</a>
       (hackathon),
-      <a href=\"https://www.facebook.com/pg/cissa.unimelb/photos/?tab=album&album_id=1914302928846428\"
-      target=\"_blank\">Industry Networking Night</a>
-      , and the Computer Science Industry Panel."
+      <a href="https://www.facebook.com/pg/cissa.unimelb/photos/?tab=album&album_id=1914302928846428"
+      target="_blank">Industry Networking Night</a>
+      , and the Computer Science Industry Panel.'
     long:
       "Managed the finances for the Computing and Information Systems Students
       Association. MC/Presentor for events such as:
 
       * <a href=\"https://codebrew.com.au/\" target=\"_blank\">CodeBrew</a>
-        (hackathon),\n
+      (hackathon),\n
       * <a href=\"https://www.facebook.com/pg/cissa.unimelb/photos/?tab=album&album_id=1914302928846428\"
       target=\"_blank\">Industry Networking Night</a>\n
       * <a href=\"https://www.facebook.com/pg/cissa.unimelb/photos/?tab=album&album_id=1893868154223239\"
@@ -121,12 +119,11 @@
   link: "http://www.portseasurf.com.au/"
   image_class: "icon-portsea"
   description:
-    short:
-      "Currently running the operations of the second biggest lifesaving club in
+    short: "Currently running the operations of the biggest lifesaving club in
       Victoria, with 2000+ members. We have saved hundreds of lives in the
-      dangerous waters of Portsea back beach."
-    long:
-      "Currently running the operations of the second biggest lifesaving club in
+      dangerous waters of Portsea back beach. In 2018 we were named Victorian
+      Club of the Year."
+    long: "Currently running the operations of the biggest lifesaving club in
       Victoria, with 2000+ members. We have saved hundreds of lives in the
       dangerous waters of Portsea back beach.
 
