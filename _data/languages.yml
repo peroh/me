@@ -8,8 +8,8 @@
 - title: "Java"
   level: "Very good"
   description:
-    "Java is the language I have used most throughout my degree. I've done lots
-    of assignments in Java, and am currently learning more about concurrency."
+    "Java is the language I used most throughout my degree. I did lots
+    of assignments in Java, including multi-threaded programs."
 
 - title: "Haskell"
   level: "Intermediate"
@@ -33,17 +33,15 @@
   level: "Basic"
   description:
     "In the past I've played around with Javascript, but have never formally
-    learnt it. I'm now learning it and React for the AskIzzy project."
+    learnt it. I used React for the AskIzzy project."
 
 - title: "Ada"
   level: "Basic"
-  description:
-    "Currently learning Ada for the subject High Integrity Systems."
+  description: "Used Ada for the subject High Integrity Systems."
 
 - title: "C"
   level: "Basic"
-  description:
-    "I've dabbled in C, but haven't used it for a long time."
+  description: "I've dabbled in C, but haven't used it for a long time."
 
 - title: "Ruby/Scale/Elixir<br>/Rust/Go/Elm"
   level: "Want to learn"
